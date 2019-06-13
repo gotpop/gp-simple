@@ -7,17 +7,22 @@
     "start": "parcel assets/html/index.njk --open --no-cache",
     "build": "parcel build index.njk"
   },
+  "engines": {
+    "node": ">= 8.10.0"
+  },
   "dependencies": {
+    "eslint": "^5.16.0",
     "node-sass": "^4.12.0",
     "nunjucks": "^3.0.0",
     "parcel-bundler": "^1.0.0",
-    "parcel-plugin-nunjucks": "^1.1.0",
-    "typescript": "^3.4.5"
+    "parcel-plugin-babel-typescript": "^1.0.1",
+    "parcel-plugin-nunjucks": "^1.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
+    "@babel/core": "^7.0.0-0",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-proposal-private-methods": "^7.4.4",
-    "@babel/preset-env": "^7.4.5"
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-typescript": "^7.3.3"
   }
 }
