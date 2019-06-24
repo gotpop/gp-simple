@@ -1,36 +1,15 @@
-// class Foo {
-//   constructor() {
-//     this.publicField = this.init();
-//   }
+// Test
 
-//   init() {
-//     this.#privateMethod()
-//   }
-
-//   #privateMethod() {
-//     return 42;
-//   }
-// }
-
-
-
-
-
-
-
-class Cookie {
-  
-  #log(message) {
-    console.log(message);
+class Talk {
+  constructor() {
+    this.init();
   }
   
   init() {
-     theCookie.#log('sup');
+    say()
   }
 }
 
-export default Cookie;
+const say = () =>  console.log('test', this);
 
-
-let theCookie = new Cookie();
-theCookie.init();
+const goTalk = new Talk();
