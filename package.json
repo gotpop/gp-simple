@@ -8,7 +8,7 @@
     "build": "parcel build index.njk"
   },
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nunjucks": "^3.0.0",
     "parcel-bundler": "^1.0.0",
     "parcel-plugin-nunjucks": "^1.1.0",
